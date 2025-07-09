@@ -146,7 +146,7 @@ def open_folder(folder_path):
 
 
 def get_weather(city):
-    api_key = "ab515fcadf2165a23b775f6bc8c07e34"  # Replace with your OpenWeatherMap API key
+    api_key = "your_token"  # Replace with your OpenWeatherMap API key
     base_url = "http://api.openweathermap.org/data/2.5/weather?"
 
     complete_url = base_url + "q=" + city + "&appid=" + api_key + "&units=metric"  # Metric for Celsius
